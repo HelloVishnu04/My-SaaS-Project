@@ -1,0 +1,49 @@
+{
+  "name": "libexpat",
+  "version": "2.8.2",
+  "build": "hd7fb8db_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "libexpat-2.8.2-hd7fb8db_1.conda",
+  "md5": "2fcb5f1e5c28132066701a82ee8728df",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/libexpat-2.8.2-hd7fb8db_1.conda",
+  "sha256": "a4f6a14ae8fd1f754c7508ab509fcf90cabbb26ce5228d8bee51ec9f69b3ac40",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [
+    "expat 2.8.2.*"
+  ],
+  "license": "MIT",
+  "timestamp": 1782817596000,
+  "size": 127910,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\user\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1.conda",
+  "extracted_package_dir": "C:\\Users\\user\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1",
+  "files": [
+    "Library/bin/expat.dll",
+    "Library/bin/libexpat.dll",
+    "Library/include/expat.h",
+    "Library/include/expat_config.h",
+    "Library/include/expat_external.h",
+    "Library/lib/cmake/expat-2.8.2/expat-config-version.cmake",
+    "Library/lib/cmake/expat-2.8.2/expat-config.cmake",
+    "Library/lib/cmake/expat-2.8.2/expat-release.cmake",
+    "Library/lib/cmake/expat-2.8.2/expat.cmake",
+    "Library/lib/expat.lib",
+    "Library/lib/libexpat.lib",
+    "Library/share/doc/expat/AUTHORS",
+    "Library/share/doc/expat/changelog"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\user\\anaconda3\\pkgs\\libexpat-2.8.2-hd7fb8db_1",
+    "type": 1
+  }
+}
