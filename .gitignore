@@ -1,6 +1,10 @@
 # ingone static/vendors file
 src\ststicfiles\vendors
 
+# ignore local-cdn file as root dir
+#ignore "local-cdn"
+static/local-cdn/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
