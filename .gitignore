@@ -1,3 +1,7 @@
+# ingone static/vendors file
+src\ststicfiles\vendors
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>{% block head_title %}SaaS {% endblock head_title %}</title>
+    <title>{% block head_title %}SaaS{% endblock head_title %}</title>
+    {% include 'base/css.html' %}
 </head>
+<body class="bg-neutral-secondary-soft">
 
-<body>
-    <h1>{{ page_title }} Hello World</h1>
+    <!-- Navbar always at the top -->
+    <header>
+        {% block navbar %}
+            {% include 'nav/navbar.html' %}
+        {% endblock navbar %}
+    </header>
 
-    {% block content %}
-    {% endblock content %}
+    <!-- Main content area with spacing to avoid overlap -->
+    <main class="pt-20 max-w-screen-xl mx-auto px-4">
+        {% block content %}
+        {% endblock content %}
+    </main>
+
+    {% include 'base/js.html' %}
 </body>
-
 </html>
