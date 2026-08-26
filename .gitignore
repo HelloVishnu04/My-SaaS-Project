@@ -224,5 +224,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-"localstatic/" 
-"local-cdn/" 
+localstatic/
+local-cdn/
+staticfiles/ 
